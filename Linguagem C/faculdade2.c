@@ -2,18 +2,16 @@
 
 int main()
 {
-    int idade; 31;
-    float salario = 1250.75;
-    double porcentagem_desconto = 2.5;
-    bool estaAprovado = false;
-    char genero = 'M';
-    float altura = 1.72;
+    float valor1=0, valor2=0;
 
-    printf("\n Idade: %d", idade);
-    printf("\n Salario: %f", salario);
-    printf("\n Desconto: (%): %f", porcentagem_desconto);
-    printf("\n Gênero: %c", genero);
-    printf("\n Altura: %.3f", altura);
+    printf("\n Digite o primeiro valor:");
+    scanf("%f",&valor1);
+    printf("\n Digite o segundo valor:");
+    scanf("%f",&valor2);
+    printf("Variável 1 = %.2f", valor1);
+    printf("Variável 2 = %.2f", valor2);
+    
 
-    return 0;
+return 0;
+
 }
